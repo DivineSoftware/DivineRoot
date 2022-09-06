@@ -8,4 +8,6 @@
 ~ Unlock bootloader<br>
 ~ Flash recovery<br>
 <br>
+<a href="https://github.com/DivineSoftware">Follow us</a> for more software releases.<br>
+<br>
 <img src='screen122913.png'>
