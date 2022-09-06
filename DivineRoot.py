@@ -18,7 +18,7 @@ logo = rainbowtext.text("""
 ///////   ///     //////   //////     //  
 No warranty ;)\n""")
 tips = [Fore.LIGHTBLUE_EX + 'Pro tip: Use recovery command to flash any recovery to bootloader, it allows you to install own operating systems and root your phone easily.',
-        Fore.LIGHTBLUE_EX + 'Pro tip: Dont unplug your device during rooting process otherwise you can cause system error.',
+        Fore.LIGHTBLUE_EX + 'Pro tip: Do not unplug your device during rooting process otherwise you can cause system error.',
         Fore.LIGHTBLUE_EX + 'Pro tip: Backup your phone before unlocking bootloader, it will wipe your data.']
 print(f"""
 {logo}
@@ -111,11 +111,6 @@ Model: {device.prop.model}
             print('An error has occured')
     elif cmd == "readme":
         print(f"""
-{Fore.GREEN}First of all Im not responsible for any of issues this tool can cause, 
-Im using adb commands, not anything more, you can do your stuff with shell feature,
-feel free to edit this source for your purposes, I would be glad if you would fork
-this repo and improve it, I'll surely accept you pull requests.
-        
 {Fore.LIGHTMAGENTA_EX}Credits: {rainbowtext.text("DivineSoftware")}{Fore.GREEN}
 {Fore.LIGHTMAGENTA_EX}License: {rainbowtext.text("Attribution-NonCommercial-Share Alike 4.0 International")}
         """)
